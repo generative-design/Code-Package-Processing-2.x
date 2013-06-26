@@ -1,0 +1,27 @@
+GENERATIVEDESIGN CODE PACKAGE FOR PROCESSING 2.X 
+
+----------------------------------------------------------------
+Version 1.0.3 - 15 Jun 2013
+
+Bug fixes:
+Various minor changes and bug fixes due to different XML and 
+OpenGL behaviour in the final Processing 2.0 release.
+
+
+----------------------------------------------------------------
+Version 1.0.2 - 23 Oct 2012
+
+Bug fixes:
+Changes due to different OpenGL behavior
+
+
+----------------------------------------------------------------
+Version 1.0.1 - 09 Oct 2012
+
+Initial release of the code package.
+
+
+
+Attention: As long as there is no final Processing 2.0 release
+it will be quite possible that some sketches might not work
+properly with any new beta release!

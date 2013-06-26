@@ -1,0 +1,7 @@
+
+
+Processing 2.0:
+M_3_4_01_TOOL,
+M_3_4_03_TOOL:
+BlendOnWhite und BlendOnBlack funktionieren nicht mehr genau gleich wie in Processing 1.5.1. Es muss sich wieder etwas im OpenGl-Handling geändert haben. Ich glaube, dass es im Tool M_3_4_01 jetzt wieder genauso aussieht, wie vorher, aber im zweiten Tool ist es wohl leicht anders. Man könnte aber so wohl damit leben.
+
