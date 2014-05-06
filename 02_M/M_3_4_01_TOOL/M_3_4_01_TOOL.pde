@@ -114,7 +114,6 @@ void setup() {
   setupGUI();
 
   pgl = (PGraphicsOpenGL) g;
-  gl = pgl.pgl.gl;  
 
   noStroke();
 
@@ -141,7 +140,7 @@ void draw() {
   else background(255);
 
   if (useBlendWhite || useBlendBlack) {
-    pgl.beginPGL();
+    gl = ((PJOGL)beginPGL()).gl.getGL2();
     if (useBlendWhite) gl.glBlendFunc(GL.GL_ONE_MINUS_SRC_ALPHA, GL.GL_ONE_MINUS_SRC_COLOR); 
     if (useBlendBlack) gl.glBlendFunc(GL.GL_SRC_ALPHA, GL.GL_DST_COLOR); 
   }
