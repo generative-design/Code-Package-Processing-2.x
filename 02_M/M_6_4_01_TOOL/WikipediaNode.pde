@@ -88,7 +88,7 @@ class WikipediaNode extends Node {
       // load html
       htmlLoaded = false;
       htmlString = "";
-      String url = encodeURL("http://en.wikipedia.org/wiki/"+id);
+      String url = encodeURL("https://en.wikipedia.org/wiki/"+id);
       htmlList = GenerativeDesign.loadHTMLAsync(thisPApplet, url, GenerativeDesign.HTML_CONTENT);
 
       // load available links
@@ -336,27 +336,3 @@ class WikipediaNode extends Node {
 
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
