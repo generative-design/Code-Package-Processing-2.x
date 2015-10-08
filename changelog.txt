@@ -1,6 +1,15 @@
 GENERATIVEDESIGN CODE PACKAGE FOR PROCESSING 2.X 
 
 ----------------------------------------------------------------
+Version 1.0.4 - 08 Oct 2015
+
+Bug fixes:
+M_3_4_01_TOOL, M_3_4_03_TOOL: OpenGL issue fixed
+Tilesaver Class: Fixed export
+M_6_4_01_TOOL: Wikipedia changed from http to https
+
+
+----------------------------------------------------------------
 Version 1.0.3 - 15 Jun 2013
 
 Bug fixes:
